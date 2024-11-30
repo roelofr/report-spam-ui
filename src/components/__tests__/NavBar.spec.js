@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 
 import { mount } from '@vue/test-utils'
-import NavBar from '@/components/NavBar.vue'
+import NavBar from '@/components/UiNav.vue'
 
 describe('NavBar', () => {
   it('renders properly', () => {
