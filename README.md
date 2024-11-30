@@ -1,6 +1,13 @@
-# report-spam-ui
+# Report Spam UI
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple application that allows users to select `*.eml` files, and we'll take the Report-Abuse headers and help them
+report an abuse report.
+
+Works fully client side, this is simple stuff.
+
+Built using Vue3. [Licensed under the AGPL-3][license].
+
+[license]: ./LICENSE
 
 ## Recommended IDE Setup
 
