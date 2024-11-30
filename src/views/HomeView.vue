@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import UiContainer from '@/components/UiContainer.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <UiContainer>
+    <h1>I am main</h1>
+    </UiContainer>
   </main>
 </template>

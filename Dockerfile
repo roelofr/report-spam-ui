@@ -1,5 +1,5 @@
 FROM nginx:alpine
 
-COPY src/assets/nginx/default.conf /etc/nginx/conf.d/
+COPY lib/nginx/default.conf /etc/nginx/conf.d/
 
 COPY dist/ /opt/nginx/html
